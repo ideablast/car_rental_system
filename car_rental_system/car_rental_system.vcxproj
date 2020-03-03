@@ -142,6 +142,24 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="ALL.h" />
+    <ClInclude Include="DATA.h" />
+    <ClInclude Include="FUNCTION.h" />
+    <ClInclude Include="LIB.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="callback.c" />
+    <ClCompile Include="car_data_doubly_link.c" />
+    <ClCompile Include="car_info.c" />
+    <ClCompile Include="customer_info.c" />
+    <ClCompile Include="customer_menu_func.c" />
+    <ClCompile Include="customer_menu_function_pointer.c" />
+    <ClCompile Include="dealer_info.c" />
+    <ClCompile Include="dealer_menu_func.c" />
+    <ClCompile Include="main.c" />
+    <ClCompile Include="print_information.c" />
+    <ClCompile Include="rental_function.c" />
+    <ClCompile Include="simplefunc.c" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

@@ -13,5 +13,60 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\NewFilter1">
+      <UniqueIdentifier>{478f264e-d045-485d-946e-cd8074bf635c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ALL.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="DATA.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="FUNCTION.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="LIB.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="simplefunc.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="rental_function.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="car_info.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="customer_info.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dealer_info.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="customer_menu_func.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="car_data_doubly_link.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="print_information.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="dealer_menu_func.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="callback.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="customer_menu_function_pointer.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
